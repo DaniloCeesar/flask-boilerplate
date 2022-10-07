@@ -1,5 +1,5 @@
 import os
-from flask import Flask
+from flask import Flask, render_template
 from dotenv import load_dotenv
 
 
@@ -16,5 +16,8 @@ app = Flask(__name__)
 ## Homepage
 
 @app.route('/', methods=['GET'])
-def hello():
-    return 'Hello, World. It\'s ' + os.getenv("APP_NAME")
+def home():
+    appName = os.getenv("APP_NAME")
+    welcomeText = "Hello, World. It's " + appName
+
+    return render_template('home.html', appName=appName, textFromBackend=welcomeText)

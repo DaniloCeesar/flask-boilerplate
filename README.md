@@ -1,4 +1,6 @@
 <div align="center">
+<img alt="Flask-Boilerplate" src="https://raw.githubusercontent.com/DaniloCeesar/flask-boilerplate/assets/flask-boilerplate.png" style="height:88px" />
+
 <h1>Flask-Boilerplate<br/><sub>Getting started with Flask.</sub></h1>
 
 <a href="#project-overview">Project overview</a> |

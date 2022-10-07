@@ -40,8 +40,9 @@ It contains the minimal set of code required to create your own Flask applicatio
 
 1. `git clone https://github.com/DaniloCeesar/flask-boilerplate.git` — clone this repository into a new directory;
 2. `cd flask-boilerplate` — change the current directory to this project source code;
-3. `pip install -r requirements.txt` — install the dependencies from `requirements.txt` file into project's folder;
-4. `flask run` — run the development server. The URL address and port will be displayed in your terminal.
+3. `cp .env.example .env` — generate a new environment file that will contain your project's environment variables;
+4. `pip install -r requirements.txt` — install the dependencies from `requirements.txt` file into project's folder;
+5. `flask run` — run the development server. The URL address and port will be displayed in your terminal.
 
 ## 👥 Attributions
 

@@ -47,4 +47,4 @@ This project is built by developing and using open source technology. We may use
 
 ## ⚖️ License
 
-This project is licensed under the MIT 2.0. See the [LICENSE](https://github.com/DaniloCeesar/flask-boilerplate/blob/main/LICENSE.md) for more information.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/DaniloCeesar/flask-boilerplate/blob/main/LICENSE.md) for more information.

@@ -21,3 +21,9 @@ def home():
     welcomeText = "Hello, World. It's " + appName
 
     return render_template('home.html', appName=appName, textFromBackend=welcomeText)
+
+# Run
+
+## Start the Externally Visible Server, with Debug mode enabled
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=80, debug=True)
